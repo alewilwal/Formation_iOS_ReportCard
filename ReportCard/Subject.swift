@@ -10,6 +10,7 @@ import Foundation
 import RealmSwift
 
 class Subject: Object {
+    
     private dynamic var title:String = ""
     private let markList = List<Mark>()
     

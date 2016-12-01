@@ -10,6 +10,7 @@ import Foundation
 import RealmSwift
 
 class Mark: Object {
+    
     private dynamic var value:Float = 0
     private dynamic var coeff:Int = 1
     
@@ -37,4 +38,3 @@ class Mark: Object {
         }
     }
 }
-

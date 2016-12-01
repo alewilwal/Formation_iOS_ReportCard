@@ -21,6 +21,8 @@
 		8837BE2D1DE88A1100DEAA6A /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8837BE2C1DE88A1100DEAA6A /* Mark.swift */; };
 		8837BE2F1DE88C2100DEAA6A /* SubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8837BE2E1DE88C2100DEAA6A /* SubjectTests.swift */; };
 		8837BE311DE88C5000DEAA6A /* MarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8837BE301DE88C5000DEAA6A /* MarkTests.swift */; };
+		8837BE331DE88F9200DEAA6A /* SubjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8837BE321DE88F9200DEAA6A /* SubjectManager.swift */; };
+		8837BE371DE890AB00DEAA6A /* SubjectManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8837BE361DE890AB00DEAA6A /* SubjectManagerTests.swift */; };
 		A36572D229D29E072A30550C /* Pods_ReportCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30F6B78CCAF29FB974B9C2B /* Pods_ReportCard.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		8837BE2C1DE88A1100DEAA6A /* Mark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
 		8837BE2E1DE88C2100DEAA6A /* SubjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectTests.swift; sourceTree = "<group>"; };
 		8837BE301DE88C5000DEAA6A /* MarkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkTests.swift; sourceTree = "<group>"; };
+		8837BE321DE88F9200DEAA6A /* SubjectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectManager.swift; sourceTree = "<group>"; };
+		8837BE361DE890AB00DEAA6A /* SubjectManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectManagerTests.swift; sourceTree = "<group>"; };
 		F30F6B78CCAF29FB974B9C2B /* Pods_ReportCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReportCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9530A8A5E18D3E9411BB231 /* Pods-ReportCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReportCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReportCard/Pods-ReportCard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				8837BE101DE8899300DEAA6A /* ReportCardTests.swift */,
+				8837BE361DE890AB00DEAA6A /* SubjectManagerTests.swift */,
 				8837BE121DE8899300DEAA6A /* Info.plist */,
 				8837BE2E1DE88C2100DEAA6A /* SubjectTests.swift */,
 				8837BE301DE88C5000DEAA6A /* MarkTests.swift */,
@@ -173,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				8837BE2A1DE889D900DEAA6A /* Subject.swift */,
+				8837BE321DE88F9200DEAA6A /* SubjectManager.swift */,
 				8837BE2C1DE88A1100DEAA6A /* Mark.swift */,
 			);
 			name = Model;
@@ -469,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8837BE331DE88F9200DEAA6A /* SubjectManager.swift in Sources */,
 				8837BE2B1DE889D900DEAA6A /* Subject.swift in Sources */,
 				8837BDFE1DE8899200DEAA6A /* DetailViewController.swift in Sources */,
 				8837BDFC1DE8899200DEAA6A /* MasterViewController.swift in Sources */,
@@ -483,6 +490,7 @@
 			files = (
 				8837BE2F1DE88C2100DEAA6A /* SubjectTests.swift in Sources */,
 				8837BE111DE8899300DEAA6A /* ReportCardTests.swift in Sources */,
+				8837BE371DE890AB00DEAA6A /* SubjectManagerTests.swift in Sources */,
 				8837BE311DE88C5000DEAA6A /* MarkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
